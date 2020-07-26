@@ -1,0 +1,78 @@
+.container h1 {
+   font-weight: bold;
+}
+
+.navbar-brand {
+   font-weight: bold;
+   font-size: 3vw;
+}
+
+.test{
+   padding: 10px;
+}
+
+.test h3 {
+   text-align: center;
+   font-weight: bold;
+}
+
+.test1 {
+   background-color: grey;
+   color: white;
+}
+
+.test2 {
+   background-color: orange;
+}
+
+.test3 {
+   background-color: violet;
+}
+
+.end {
+   display: none;
+}
+
+/* small device */
+@media (max-width: 768px) {
+   .col-xs-12 {
+      margin-bottom: 10px;
+   }
+
+   .end1 {
+      display: block;
+   }
+
+   .end2 {
+      display: block;
+   }
+
+   .end3 {
+      display: block;
+   }
+ }
+
+ /* medium device */
+@media (min-width: 769px) and (max-width: 991px) {
+   .col-xs-12, .col-sm-6, .col-md-6 {
+      margin-bottom: 10px;
+   }
+ }
+
+/* tablet device */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+   .col-sm-6, .col-md-6 {
+      margin-bottom: 10px;
+   }
+   
+ }
+
+ @media (min-width: 893px) {
+   .navbar-nav {
+      display: none;
+   }
+   .navbar-toggler {
+      display: none;
+   }
+ } 
